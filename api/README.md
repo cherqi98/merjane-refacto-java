@@ -83,3 +83,9 @@ After:
 private final ProductRepository productRepository;
 private final List<ProductHandler> productHandlers;
 `
+## Tests
+
+* To run tests (from the `api` subdirectory):
+    * Unit tests: `./mvnw test`
+    * Integration tests: `./mvnw integration-test`
+    * All tests: `./mvnw verify`
